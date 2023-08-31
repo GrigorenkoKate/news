@@ -1,0 +1,26 @@
+@media (min-width: 1200px) {
+    .grid-for-news {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 30px;
+
+        grid-template-areas: "news-big news-big sidebar"
+                            "news news sidebar";
+    }
+
+
+    .grid-for-news__big-news {
+        grid-area: news-big;
+    }
+
+    .grid-for-news__news {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 30px;
+        grid-area: news;
+    }
+
+    .grid-for-news__sidebar {
+        grid-area: sidebar;
+    }
+}

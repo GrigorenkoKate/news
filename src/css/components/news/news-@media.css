@@ -1,0 +1,5 @@
+@media (min-width: 1200px) {
+    .news.news--big .news__img {
+        height: 415px;
+    }
+}

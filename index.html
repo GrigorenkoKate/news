@@ -7,39 +7,44 @@
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
-   <link rel="stylesheet" href="/style.css">
-   <link rel="stylesheet" href="/reset.css">
-   <link rel="stylesheet" href="/common.css">
+   <link rel="stylesheet" href="/src/css/reset.css">
+   <link rel="stylesheet" href="/src/css/common.css">
+   <link rel="stylesheet" href="/src/css/components/grid-for-news/grid-for-news.css">
+   <link rel="stylesheet" href="/src/css/components/grid-for-news/grid-for-news-@media.css">
+   <link rel="stylesheet" href="/src/css/components/news/news.css">
+   <link rel="stylesheet" href="/src/css/components/news/news-@media.css">
+
    <title>news</title>
 </head>
 
 <body>
    <div class="container">
-   
       <div class="grid-for-news">
-         <div class="news news-big">
-            <div class="news__img">
-               <img src="/img/ef9cb92647ef6fe74e3e62afcaf09f7e.jpg" alt="">
-            </div>
-            <div class="news__title">
-               <a href="">Друзья устраивали фотосеты на фоне стен».</a>
-            </div>
-            <div class="news__description">Посмотрите, какую квартиру художницы продают в минской брежневке.</div>
-            <div class="news__items">
-               <div class="news__item-date">
-                  <span>12.10</span>
+         <div class="grid-for-news__big-news">
+            <div class="news news--big">
+               <div class="news__img">
+                  <img src="/img/ef9cb92647ef6fe74e3e62afcaf09f7e.jpg" alt="">
                </div>
-               <div class="news__item-views">
-                  <img src="/img/eye.png" alt="">
-                  <span>3 055</span>
+               <div class="news__title">
+                  <a href="">Друзья устраивали фотосеты на фоне стен».</a>
                </div>
-               <div class="news__item-comments">
-                  <img src="/img/message-square.png" alt="">
-                  <span>3</span>
+               <div class="news__description">Посмотрите, какую квартиру художницы продают в минской брежневке.</div>
+               <div class="news__items">
+                  <div class="news__item-date">
+                     <span>12.10</span>
+                  </div>
+                  <div class="news__item-views">
+                     <img src="/img/eye.png" alt="">
+                     <span>3 055</span>
+                  </div>
+                  <div class="news__item-comments">
+                     <img src="/img/message-square.png" alt="">
+                     <span>3</span>
+                  </div>
                </div>
             </div>
          </div>
-         <div class="container-news">
+         <div class="grid-for-news__news">
             <div class="news ">
                <div class="news__img">
                   <img src="/img/image 2.png" alt="">
@@ -85,9 +90,9 @@
                </div>
             </div>
          </div>
-         <div class="container-sidebar">
+         <div class="grid-for-news__sidebar">
             <h3 class="h3">Последние новости</h3>
-            <div class="news news-short">
+            <div class="news news--short">
                <div class="news__title">
                   <a href="">Как живет руководитель отдела в Петербурге с зарплатой 55 000 ₽</a>
                </div>
@@ -105,7 +110,7 @@
                   </div>
                </div>
             </div>
-            <div class="news news-short">
+            <div class="news news--short">
                <div class="news__title">
                   <a href="">​«Беларусбанк» представил новый кредит на недвижимость под 21% годовых
                   </a>
@@ -124,7 +129,7 @@
                   </div>
                </div>
             </div>
-            <div class="news news-short">
+            <div class="news news--short">
                <div class="news__title">
                   <a href="">Как живет руководитель отдела в Петербурге с зарплатой 55 000 ₽</a>
                </div>
@@ -142,7 +147,7 @@
                   </div>
                </div>
             </div>
-            <div class="news news-short">
+            <div class="news news--short">
                <div class="news__title">
                   <a href="">Как живет руководитель отдела в Петербурге с зарплатой 55 000 ₽</a>
                </div>
@@ -160,7 +165,7 @@
                   </div>
                </div>
             </div>
-            <div class="news news-short">
+            <div class="news news--short">
                <div class="news__title">
                   <a href="">Как живет руководитель отдела в Петербурге с зарплатой 55 000 ₽</a>
                </div>
@@ -178,7 +183,7 @@
                   </div>
                </div>
             </div>
-            <div class="news news-short">
+            <div class="news news--short">
                <div class="news__title">
                   <a href="">Как живет руководитель отдела в Петербурге с зарплатой 55 000 ₽</a>
                </div>
@@ -196,7 +201,7 @@
                   </div>
                </div>
             </div>
-            <div class="news news-short">
+            <div class="news news--short">
                <div class="news__title">
                   <a href="">Как живет руководитель отдела в Петербурге с зарплатой 55 000 ₽</a>
                </div>
@@ -216,7 +221,7 @@
             </div>
          </div>
       </div>
-
+   </div>
 </body>
 
 </html>
